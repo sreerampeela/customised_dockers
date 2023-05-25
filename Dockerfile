@@ -8,3 +8,4 @@ RUN conda config --add channels conda-forge
 RUN conda create -n velvetoptimiser
 RUN conda install -c bioconda perl-velvetoptimiser
 ENV PATH /opt/conda/bin:/opt/conda/condabin:/opt/conda/envs/velvetoptimiser/bin
+## docker image for velvetoptimiser
